@@ -1,4 +1,4 @@
-from colorama import Fore, Style
+from colorama import Fore
 
 # This class is to show an individual contact with a name, phone number and email
 class Contact:
