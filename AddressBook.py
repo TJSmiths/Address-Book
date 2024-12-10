@@ -47,9 +47,9 @@ class ContactBook:
     
     # Function to update contacts, again using .lower() to help with case sensitivity
     def update_contact(self):
-        print("Contacts - ")
+        print(Fore.BLUE + f"Contacts - ")
         for contact in self.contacts: # Loop through contacts and print each contacts name to show the user the options
-            print(contact.name)
+            print(Fore.WHITE + f"{contact.name}")
         updatecontact = input("Please enter the name of the contact you would like to update:").lower() # Assign user input to a variable to search for
         for contact in self.contacts: # Loop through the contact list
             if updatecontact == contact.name.lower(): # Check if the contact exists to be updated
