@@ -77,7 +77,7 @@ class ContactBook:
                 print(f"{deletecontact} deleted successfully.") # Confirmation message
                 break
         else:
-            print(f"The contact '{deletecontact}")
+            print(f"The contact '{deletecontact}' does not exist.")
 
 # Main function to handle the running of the program
 def main():
